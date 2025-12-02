@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s:*)",
+      "Bash(dir:*)",
+      "Bash(mkdir:*)",
+      "Bash(start \"\" \"c:\\Users\\admin\\Documents\\HURF Chapter\\index.html\")",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

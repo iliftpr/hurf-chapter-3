@@ -1,0 +1,22 @@
+🎯 SAVE YOUR HURF CHAPTER LOGO HERE
+====================================
+
+📍 LOCATION:
+c:\Users\admin\Documents\HURF Chapter\assets\images\logo.png
+
+📋 INSTRUCTIONS:
+1. Right-click the HURF Chapter logo image (the circular one with eagle)
+2. Select "Save Image As..."
+3. Navigate to: c:\Users\admin\Documents\HURF Chapter\assets\images\
+4. Save as: logo.png
+5. Refresh your browser (Ctrl+F5)
+
+✨ Your logo will appear:
+   - Top left corner of navigation (60px tall)
+   - Center of hero section (200px wide)
+   - All pages automatically!
+
+The logo is already styled to look great - just save the file and refresh!
+
+Current path looking for logo:
+assets/images/logo.png

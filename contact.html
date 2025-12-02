@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact HURF Chapter - Get in touch with us for membership inquiries, program information, or general questions.">
+
+  <title>Contact Us | HURF Chapter</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="icon" type="image/png" href="assets/images/hurf_chapter_logo_CORRECT_SPELLING (1).png">
+</head>
+<body>
+
+<!-- ===== HEADER & NAVIGATION ===== -->
+<header class="header">
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="assets/images/hurf_chapter_logo_CORRECT_SPELLING (1).png" alt="HURF Chapter Logo" style="height: 80px; width: auto;">
+        <span class="navbar-brand hidden md:inline">HURF Chapter</span>
+      </div>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="programs.html" class="nav-link">Programs</a></li>
+        <li><a href="resources.html" class="nav-link">Resources</a></li>
+        <li><a href="events.html" class="nav-link">Events</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        <li><a href="membership.html" class="btn btn-primary btn-sm">Join Now</a></li>
+      </ul>
+
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+        ☰
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>We're here to help your business succeed</p>
+  </div>
+</section>
+
+<!-- ===== CONTACT INFORMATION & FORM ===== -->
+<section class="section">
+  <div class="container">
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <!-- Contact Information -->
+      <div>
+        <h2 class="text-3xl font-bold text-navy mb-6">Get in Touch</h2>
+        <p class="text-lg text-secondary mb-8">
+          Have questions about membership, programs, or events? We'd love to hear from you!
+        </p>
+
+        <div class="space-y-6">
+          <!-- Email -->
+          <div class="flex items-start gap-4">
+            <div class="card-icon" style="width: 50px; height: 50px; font-size: 1.5rem;">
+              📧
+            </div>
+            <div>
+              <h3 class="font-bold text-navy mb-1">Email Us</h3>
+              <a href="mailto:info@hurfchapter.org" class="text-patriot-red hover:underline">
+                info@hurfchapter.org
+              </a>
+              <p class="text-sm text-secondary mt-1">We respond within 24 hours</p>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="flex items-start gap-4">
+            <div class="card-icon" style="width: 50px; height: 50px; font-size: 1.5rem;">
+              📞
+            </div>
+            <div>
+              <h3 class="font-bold text-navy mb-1">Call Us</h3>
+              <a href="tel:516-555-HURF" class="text-patriot-red hover:underline">
+                (516) 555-HURF
+              </a>
+              <p class="text-sm text-secondary mt-1">Monday - Friday, 9 AM - 5 PM EST</p>
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="flex items-start gap-4">
+            <div class="card-icon" style="width: 50px; height: 50px; font-size: 1.5rem;">
+              📍
+            </div>
+            <div>
+              <h3 class="font-bold text-navy mb-1">Our Region</h3>
+              <p class="text-secondary">
+                Serving:<br>
+                Hempstead, Uniondale,<br>
+                Roosevelt, and Freeport<br>
+                <span class="text-sm">Nassau County, New York</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Office Hours -->
+          <div class="flex items-start gap-4">
+            <div class="card-icon" style="width: 50px; height: 50px; font-size: 1.5rem;">
+              🕐
+            </div>
+            <div>
+              <h3 class="font-bold text-navy mb-1">Office Hours</h3>
+              <p class="text-secondary">
+                Monday - Friday: 9:00 AM - 5:00 PM<br>
+                Saturday: By appointment<br>
+                Sunday: Closed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="mt-8">
+          <h3 class="font-bold text-navy mb-4">Follow Us</h3>
+          <div class="flex gap-3">
+            <a href="#" class="social-link bg-navy-blue" aria-label="Facebook" style="width: 50px; height: 50px; font-size: 1.5rem;">f</a>
+            <a href="#" class="social-link bg-navy-blue" aria-label="Twitter" style="width: 50px; height: 50px; font-size: 1.2rem;">𝕏</a>
+            <a href="#" class="social-link bg-navy-blue" aria-label="LinkedIn" style="width: 50px; height: 50px; font-size: 1.2rem;">in</a>
+            <a href="#" class="social-link bg-navy-blue" aria-label="Instagram" style="width: 50px; height: 50px; font-size: 1.5rem;">📷</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="bg-light-gray rounded-lg p-8">
+        <h2 class="text-3xl font-bold text-navy mb-6">Send Us a Message</h2>
+
+        <form id="contactForm">
+          <!-- Hidden Fields for Tracking -->
+          <input type="hidden" name="source" value="HURF Website">
+          <input type="hidden" name="form_type" value="contact">
+
+          <div class="form-group">
+            <label for="full_name" class="form-label form-label-required">Full Name</label>
+            <input type="text" id="full_name" name="full_name" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label form-label-required">Email Address</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="form-input" placeholder="(516) 555-1234">
+          </div>
+
+          <div class="form-group">
+            <label for="subject" class="form-label form-label-required">Subject</label>
+            <select id="subject" name="subject" class="form-select" required>
+              <option value="">Select a topic</option>
+              <option value="general">General Inquiry</option>
+              <option value="membership">Membership Information</option>
+              <option value="programs">Programs & Initiatives</option>
+              <option value="events">Events & Networking</option>
+              <option value="media">Media Inquiry</option>
+              <option value="partnership">Partnership Opportunity</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label form-label-required">Message</label>
+            <textarea id="message" name="message" class="form-textarea" rows="5" required placeholder="Tell us how we can help..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block">
+            Send Message
+          </button>
+
+          <p class="text-sm text-secondary mt-4 text-center">
+            We'll respond to your inquiry within 24 hours during business days.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="section bg-gray">
+  <div class="container" style="max-width: 900px;">
+    <h2 class="text-4xl font-bold text-navy text-center mb-10">Frequently Asked Questions</h2>
+
+    <div class="space-y-4">
+      <details class="bg-white rounded-lg p-6 shadow-md">
+        <summary class="font-bold text-navy cursor-pointer text-lg">
+          How do I become a member?
+        </summary>
+        <p class="text-secondary mt-3">
+          Simply fill out our <a href="membership.html" class="text-patriot-red hover:underline">membership application</a> online. We'll review your application and contact you within 2-3 business days to complete the process.
+        </p>
+      </details>
+
+      <details class="bg-white rounded-lg p-6 shadow-md">
+        <summary class="font-bold text-navy cursor-pointer text-lg">
+          What are the membership fees?
+        </summary>
+        <p class="text-secondary mt-3">
+          HURF Chapter offers affordable membership tiers based on business size. Contact us for current pricing and to discuss which tier is right for your business.
+        </p>
+      </details>
+
+      <details class="bg-white rounded-lg p-6 shadow-md">
+        <summary class="font-bold text-navy cursor-pointer text-lg">
+          Can I attend events if I'm not a member?
+        </summary>
+        <p class="text-secondary mt-3">
+          Yes! Select networking events and workshops are open to non-members. Check our <a href="events.html" class="text-patriot-red hover:underline">events page</a> for details. However, members receive priority registration and discounted rates.
+        </p>
+      </details>
+
+      <details class="bg-white rounded-lg p-6 shadow-md">
+        <summary class="font-bold text-navy cursor-pointer text-lg">
+          Do you help businesses outside the HURF region?
+        </summary>
+        <p class="text-secondary mt-3">
+          Our primary focus is Hempstead, Uniondale, Roosevelt, and Freeport. However, we welcome businesses from neighboring Nassau County communities that want to connect with the HURF business ecosystem.
+        </p>
+      </details>
+
+      <details class="bg-white rounded-lg p-6 shadow-md">
+        <summary class="font-bold text-navy cursor-pointer text-lg">
+          How can I get help with MWBE certification?
+        </summary>
+        <p class="text-secondary mt-3">
+          Our Government Contracting Advocacy program provides step-by-step assistance with MWBE certification. <a href="contact.html" class="text-patriot-red hover:underline">Contact us</a> to schedule a consultation with our certification specialist.
+        </p>
+      </details>
+
+      <details class="bg-white rounded-lg p-6 shadow-md">
+        <summary class="font-bold text-navy cursor-pointer text-lg">
+          Do you offer one-on-one business consulting?
+        </summary>
+        <p class="text-secondary mt-3">
+          Yes! Members have access to free consultations with our business advisors on topics like financing, marketing, operations, and growth strategies. Non-members can schedule paid consultations.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA SECTION ===== -->
+<section class="section bg-navy text-white">
+  <div class="container text-center">
+    <h2 class="text-4xl font-bold text-white mb-4">Ready to Join?</h2>
+    <p class="text-xl opacity-90 mb-8">Become a member and start accessing exclusive benefits today</p>
+    <a href="membership.html" class="btn btn-primary btn-lg">Apply for Membership</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>About HURF Chapter</h4>
+        <p style="color: rgba(255,255,255,0.8); font-size: 0.875rem; line-height: 1.6;">
+          Supporting small businesses in Hempstead, Uniondale, Roosevelt, and Freeport through advocacy, resources, and community.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Our Programs</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="footer-links">
+          <li>📧 Email: <a href="mailto:info@hurfchapter.org">info@hurfchapter.org</a></li>
+          <li>📞 Phone: <a href="tel:516-555-HURF">516-555-HURF</a></li>
+          <li>📍 Serving: Hempstead, Uniondale, Roosevelt, Freeport</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Stay Connected</h4>
+        <p style="color: rgba(255,255,255,0.8); font-size: 0.875rem; margin-bottom: 1rem;">
+          Get the latest news and updates delivered to your inbox.
+        </p>
+        <form class="space-y-3" id="newsletterForm">
+          <input type="email" placeholder="Your email address" class="form-input" required style="background-color: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: white;">
+          <button type="submit" class="btn btn-primary btn-block btn-sm">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 HURF Chapter - National Small Business Chamber of Commerce. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Facebook">f</a>
+        <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/form-validation.js"></script>
+
+</body>
+</html>

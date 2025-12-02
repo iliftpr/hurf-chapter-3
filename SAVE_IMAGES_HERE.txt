@@ -1,0 +1,42 @@
+📸 SAVE YOUR IMAGES HERE
+========================
+
+IMPORTANT: Save these images to make your website complete!
+
+1. HERO BACKGROUND IMAGE (REQUIRED)
+   ----------------------------------
+   File name: hero-background.jpg
+   Location: c:\Users\admin\Documents\HURF Chapter\assets\images\hero-background.jpg
+
+   This is the networking event photo you just uploaded (people at business event with drinks).
+
+   Steps:
+   1. Right-click the image you uploaded to Claude
+   2. Save As...
+   3. Navigate to: c:\Users\admin\Documents\HURF Chapter\assets\images\
+   4. Name it exactly: hero-background.jpg
+   5. Refresh your browser to see it!
+
+2. LOGO IMAGE (REQUIRED)
+   -----------------------
+   File name: logo.png
+   Location: c:\Users\admin\Documents\HURF Chapter\assets\images\logo.png
+
+   This is your circular HURF Chapter logo with the eagle and red/white/blue design.
+
+   Steps:
+   1. Save your logo file
+   2. Navigate to: c:\Users\admin\Documents\HURF Chapter\assets\images\
+   3. Name it exactly: logo.png
+   4. Refresh your browser to see it in the navigation!
+
+3. OPTIONAL: White Logo Version
+   -----------------------------
+   File name: logo-white.png
+   Location: c:\Users\admin\Documents\HURF Chapter\assets\images\logo-white.png
+
+   If you have a white version of your logo for dark backgrounds.
+
+After saving these images, press Ctrl+F5 (or Cmd+Shift+R on Mac) in your browser to see the changes!
+
+Your website will look amazing with these images in place! 🎉
