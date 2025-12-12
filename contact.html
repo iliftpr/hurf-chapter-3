@@ -19,7 +19,7 @@
   <div class="container">
     <nav class="navbar">
       <div class="navbar-logo">
-        <img src="assets/images/hurf_chapter_logo_CORRECT_SPELLING (1).png" alt="HURF Chapter Logo" style="height: 100px; width: auto;">
+        <img src="assets/images/hurf_chapter_logo_CORRECT_SPELLING (1).png" alt="HURF Chapter Logo" style="height: 95px; width: auto;">
         <span class="navbar-brand hidden md:inline">HURF Chapter</span>
       </div>
 
@@ -137,10 +137,11 @@
       <div class="bg-light-gray rounded-lg p-8">
         <h2 class="text-3xl font-bold text-navy mb-6">Send Us a Message</h2>
 
-        <form id="contactForm">
-          <!-- Hidden Fields for Tracking -->
-          <input type="hidden" name="source" value="HURF Website">
-          <input type="hidden" name="form_type" value="contact">
+        <form action="https://formsubmit.co/dave@ilift.com" method="POST" id="contactForm">
+          <!-- Hidden Fields for FormSubmit -->
+          <input type="hidden" name="_subject" value="New Contact Form Message - HURF Chapter">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://hurf-chapter-3.vercel.app/contact.html?success=true">
 
           <div class="form-group">
             <label for="full_name" class="form-label form-label-required">Full Name</label>
