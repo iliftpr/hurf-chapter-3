@@ -17,7 +17,11 @@
       "Bash(python:*)",
       "Bash(copy \"hurf_chapter_logo_transparent.png\" \"hurf_chapter_logo_CORRECT_SPELLING (1).png\" /Y)",
       "Bash(echo:*)",
-      "Bash(start \"\" \"C:\\Users\\admin\\Documents\\HURF Chapter\\index.html\")"
+      "Bash(start \"\" \"C:\\Users\\admin\\Documents\\HURF Chapter\\index.html\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate website with logo, events, and UI improvements\n\n- Updated HURF Chapter logo across all pages (100px height)\n- Replaced outdated events with Holiday Party event (Dec 18, 2025)\n- Improved tab button contrast for better visibility\n- Reorganized home page layout with Digital Magazine as hero\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(gh auth status:*)",
+      "Bash(gh auth switch:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
