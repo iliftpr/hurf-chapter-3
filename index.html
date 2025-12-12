@@ -23,6 +23,215 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/images/hurf_chapter_logo_CORRECT_SPELLING (1).png">
+
+  <!-- Modern Hero Styles -->
+  <style>
+    .modern-hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 120px 0 60px;
+      background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    }
+
+    /* Animated gradient overlay */
+    .modern-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background:
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 115, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(78, 205, 196, 0.2) 0%, transparent 40%);
+      animation: gradientShift 15s ease infinite;
+    }
+
+    @keyframes gradientShift {
+      0%, 100% { opacity: 1; transform: scale(1) rotate(0deg); }
+      50% { opacity: 0.8; transform: scale(1.1) rotate(3deg); }
+    }
+
+    /* Floating orbs for networking feel */
+    .hero-orbs {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(1px);
+      animation: float 20s infinite ease-in-out;
+    }
+
+    .orb-1 {
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.4) 0%, transparent 70%);
+      top: 10%;
+      left: -5%;
+      animation-delay: 0s;
+    }
+
+    .orb-2 {
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(236, 72, 153, 0.25) 0%, transparent 70%);
+      top: 60%;
+      right: -10%;
+      animation-delay: -5s;
+    }
+
+    .orb-3 {
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, rgba(34, 211, 238, 0.3) 0%, transparent 70%);
+      top: 30%;
+      right: 20%;
+      animation-delay: -10s;
+    }
+
+    .orb-4 {
+      width: 150px;
+      height: 150px;
+      background: radial-gradient(circle, rgba(251, 191, 36, 0.25) 0%, transparent 70%);
+      bottom: 20%;
+      left: 15%;
+      animation-delay: -7s;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) translateX(0); }
+      25% { transform: translateY(-30px) translateX(15px); }
+      50% { transform: translateY(-15px) translateX(-10px); }
+      75% { transform: translateY(-40px) translateX(20px); }
+    }
+
+    /* Network lines */
+    .network-lines {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0.1;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+      background-size: 50px 50px;
+      animation: networkPulse 10s ease infinite;
+    }
+
+    @keyframes networkPulse {
+      0%, 100% { opacity: 0.05; }
+      50% { opacity: 0.15; }
+    }
+
+    .hero-content-modern {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 8px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 50px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-title-modern {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 700;
+      color: white;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-title-modern span {
+      background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-subtitle-modern {
+      font-size: 1.25rem;
+      color: rgba(255, 255, 255, 0.7);
+      max-width: 600px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    .magazine-container {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 20px;
+      backdrop-filter: blur(20px);
+      margin-bottom: 40px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-modern {
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .btn-modern-primary {
+      background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+      color: white;
+      border: none;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    }
+
+    .btn-modern-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+    }
+
+    .btn-modern-secondary {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    .btn-modern-secondary:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+  </style>
 </head>
 <body>
 
@@ -52,15 +261,28 @@
 </header>
 
 <!-- ===== HERO SECTION - DIGITAL MAGAZINE ===== -->
-<section class="hero-tabs" style="background: linear-gradient(135deg, rgba(26, 35, 126, 0.88) 0%, rgba(13, 19, 66, 0.88) 100%), url('https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1920&h=1080&fit=crop&q=85') center center / cover no-repeat; background-attachment: fixed;">
-  <div class="container hero-content">
-    <div class="text-center mb-8">
-      <h1 class="text-5xl font-bold text-white mb-4">Latest: HURF Digital Magazine</h1>
-      <p class="text-xl text-white opacity-90">Explore our latest news, success stories, and community highlights</p>
-    </div>
+<section class="modern-hero">
+  <!-- Animated background elements -->
+  <div class="hero-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+  </div>
+  <div class="network-lines"></div>
 
-    <div class="flipbook-embed" style="max-width: 900px; margin: 0 auto;">
-      <!-- User's provided FlipBook embed code -->
+  <div class="hero-content-modern">
+    <div class="hero-badge">Connecting Small Businesses Across Long Island</div>
+
+    <h1 class="hero-title-modern">
+      HURF <span>Digital Magazine</span>
+    </h1>
+
+    <p class="hero-subtitle-modern">
+      Explore our latest news, success stories, and community highlights from Hempstead, Uniondale, Roosevelt & Freeport
+    </p>
+
+    <div class="magazine-container">
       <a href="https://online.flippingbook.com/view/789587893/"
          class="fbo-embed"
          data-fbo-id="83342cba68"
@@ -75,9 +297,9 @@
       <script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=789587893"></script>
     </div>
 
-    <div class="hero-ctas">
-      <a href="resources.html" class="btn btn-white btn-lg">View Magazine Archive</a>
-      <a href="membership.html" class="btn btn-primary btn-lg">Become a Member</a>
+    <div class="hero-buttons">
+      <a href="membership.html" class="btn-modern btn-modern-primary">Become a Member</a>
+      <a href="resources.html" class="btn-modern btn-modern-secondary">View Archive</a>
     </div>
   </div>
 </section>
